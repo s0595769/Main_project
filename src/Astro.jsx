@@ -5,9 +5,9 @@ import ContentGrid from "../../intergalactic-iron/src/components/ContentGrid.jsx
 
 function App() {
   return (
-    <div className="font-sans bg-gray-50 text-gray-800">
+    <div className="font-sans bg-gray-50 text-gray-800 min-h-screen">
       <Navbar />
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-6 py-12">
         <SearchBar />
         <ContentGrid />
       </div>
